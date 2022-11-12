@@ -1,0 +1,56 @@
+body {
+background-color: rgb(230, 230, 230);
+color: rgb(30, 30, 30);
+font-family: 'Courier', serif;
+}
+h1 {
+color: #645CAA;
+font-family: Courier;
+font-weight: bolder;
+font-size: 45px;
+text-transform: uppercase;
+}
+
+h2{
+	color: #A084CA;
+	font-family: Courier;
+	font-size: 25px;
+}
+
+a{
+	text-decoration: none;
+	color: #BFACE0
+	font-weight: bold;
+	font-weight: 600;
+	font-size: 16px;
+}
+a:hover {
+	color: #A084CA;
+}
+
+
+div{
+	background: white;
+	
+}
+
+@media (max-width: 960px) {
+	/* For a screnn < 960px, this CSS will be read */
+	.container {
+		width: 700px;
+	}
+}
+@media (max-width: 960px) {
+	/* For a screnn < 720px, this CSS will be read */
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 540px) {
+	/* For a screnn < 540px, this CSS will be read */
+	.container {
+		width: 300px;
+	}
+}
+
+
